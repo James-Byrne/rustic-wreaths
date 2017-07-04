@@ -6,7 +6,8 @@ class Hero extends Component {
       <div className="row hero-container">
         <div className="col text-center my-auto">
           <h1>The Essence of Christmas</h1>
-          <button className="btn btn-primary">Our Work</button>
+          <br/>
+          <button className="btn btn-primary btn-lg">Our Work</button>
         </div>
       </div>
     )

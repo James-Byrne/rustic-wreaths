@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 import Hero from '../components/Hero.js';
 import Navbar from '../components/Navbar.js';
+import Showcase from '../components/Showcase.js';
 
 class Home extends Component {
   render() {
@@ -9,6 +10,7 @@ class Home extends Component {
       <div className="container-fluid">
         <Navbar/>
         <Hero/>
+        <Showcase/>
       </div>
     )
   }

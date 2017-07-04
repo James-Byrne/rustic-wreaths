@@ -1,7 +1,7 @@
 body {
   background-image: url('./images/rustic-wreaths-background.jpg');
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
   color: #D1D7E0;
 }
 
