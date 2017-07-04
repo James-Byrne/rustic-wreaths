@@ -1,0 +1,49 @@
+body {
+  color: #D1D7E0;
+}
+
+/* Navbar */
+.navbar {
+  background: transparent;
+  max-width: 1240px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 20px;
+  color: rgba(255,255,255,.5);
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+}
+
+.navbar-nav {
+  border-bottom: 3px solid #D1D7E0;
+}
+
+.navbar-toggleable-md .navbar-nav .nav-link {
+  padding: 1em 1.5em;
+}
+
+
+/* Hero */
+.hero-container {
+  background-image: url('./images/rustic-wreaths-background.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  padding-top: 25%;
+}
+
+/* Showcase */
+.showcase {
+  background-color: #2E3138;
+  border-top: 2px solid #CDB67E;
+  padding-top: 70px;
+  padding-bottom: 30px;
+
+  img {
+    width: 370px;
+    height: 250px;
+    margin-top: 40px;
+    border: 2px solid #D1D7E0;
+    -webkit-clip-path: polygon(80% 0, 100% 25%, 100% 100%, 25% 100%, 0 75%, 0 0%);
+  }
+}
