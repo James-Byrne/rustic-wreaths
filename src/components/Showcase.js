@@ -9,32 +9,38 @@ import showcase6 from '../images/showcase/showcase-6.jpg';
 class Showcase extends Component {
   render() {
     return (
-      <div>
+      <div className="showcase container-fluid">
         <div className="row">
-          <div className="col">
-            <img src={showcase1}/>
-          </div>
-
-          <div className="col">
-            <img src={showcase2}/>
-          </div>
-
-          <div className="col">
-            <img src={showcase3}/>
+          <div className="col text-center">
+            <h4>DESIGNED FOR PERFECTION</h4>
           </div>
         </div>
 
         <div className="row">
-          <div className="col">
-            <img src={showcase4}/>
+          <div className="col col-auto mx-auto">
+            <img alt="" src={showcase1}/>
           </div>
 
-          <div className="col">
-            <img src={showcase5}/>
+          <div className="col col-auto mx-auto">
+            <img alt="" src={showcase2}/>
           </div>
 
-          <div className="col">
-            <img src={showcase6}/>
+          <div className="col col-auto mx-auto">
+            <img alt="" src={showcase3}/>
+          </div>
+        </div>
+
+        <div className="row">
+          <div className="col col-auto mx-auto">
+            <img alt="" src={showcase4}/>
+          </div>
+
+          <div className="col col-auto mx-auto">
+            <img alt="" src={showcase5}/>
+          </div>
+
+          <div className="col col-auto mx-auto">
+            <img alt="" src={showcase6}/>
           </div>
         </div>
       </div>
