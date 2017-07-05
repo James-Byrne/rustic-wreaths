@@ -66,3 +66,16 @@ h6 { @extend .title; }
     color: #8c9398;
   }
 }
+
+/* Masonry */
+.masonry {
+  column-count: 4;
+  column-gap: 1em;
+}
+.item {
+    background-color: #eee;
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+}
+ 
