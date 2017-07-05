@@ -43,6 +43,12 @@ class Showcase extends Component {
             <img alt="" src={showcase6}/>
           </div>
         </div>
+
+        <div className="row mt-5">
+          <div className="col text-center">
+            <button className="btn btn-primary btn-lg">Contact</button>
+          </div>
+        </div>
       </div>
     )
   }
