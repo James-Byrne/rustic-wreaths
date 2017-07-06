@@ -32,7 +32,7 @@ h6 { @extend .title; }
 
 /* Hero */
 .hero-container {
-  background-image: url('./images/rustic-wreaths-background.jpg');
+  background: url('./images/rustic-wreaths-background.jpg') fixed;
   background-size: cover;
   min-height: 100vh;
   padding-top: 25%;
@@ -90,4 +90,17 @@ h6 { @extend .title; }
   border: 1px solid #CDB67E;
 
   img { width: 100%; }
+}
+
+/* Follow Us */
+.follow-us {
+  border-top: 2px solid #CDB67E;
+  min-height: 450px;
+  background: url('./images/follow-us/follow-us-background.jpg') fixed no-repeat center center;
+  background-size: cover;
+
+  .fa-tree {
+    padding: 100px 0;
+    font-size: 3em;
+  }
 }
