@@ -57,6 +57,7 @@ h6 { @extend .title; }
 .about {
   padding: 50px 0 80px;
   background-color: #fafafa;
+  border-top: 2px solid #CDB67E;
 
   h6 {
     color: #353535;
@@ -68,14 +69,25 @@ h6 { @extend .title; }
 }
 
 /* Masonry */
+.masonry-gallery {
+  background-color: #2E3138;
+  padding: 80px 100px 60px 100px;
+  border-top: 2px solid #CDB67E;
+
+  h4 {
+    margin-bottom: 60px;
+  }
+}
 .masonry {
-  column-count: 4;
+  column-count: 6;
   column-gap: 1em;
 }
 .item {
-    background-color: #eee;
-    display: inline-block;
-    margin: 0 0 1em;
-    width: 100%;
+  background-color: #eee;
+  display: inline-block;
+  margin: 0 0 1em;
+  width: 100%;
+  border: 1px solid #CDB67E;
+
+  img { width: 100%; }
 }
- 
