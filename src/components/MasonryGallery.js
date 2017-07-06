@@ -28,23 +28,23 @@ class MasonryGallery extends Component {
           </div>
         </div>
         <div className="masonry">
-          <div className="item"><img src={m1}/></div>
-          <div className="item"><img src={m2}/></div>
-          <div className="item"><img src={m3}/></div>
-          <div className="item"><img src={m4}/></div>
-          <div className="item"><img src={m5}/></div>
-          <div className="item"><img src={m6}/></div>
-          <div className="item"><img src={m7}/></div>
-          <div className="item"><img src={m8}/></div>
-          <div className="item"><img src={m9}/></div>
-          <div className="item"><img src={m10}/></div>
-          <div className="item"><img src={m11}/></div>
-          <div className="item"><img src={m12}/></div>
-          <div className="item"><img src={m13}/></div>
-          <div className="item"><img src={m14}/></div>
-          <div className="item"><img src={m15}/></div>
-          <div className="item"><img src={m16}/></div>
-          <div className="item"><img src={m17}/></div>
+          <div className="item"><img alt="" src={m1}/></div>
+          <div className="item"><img alt="" src={m2}/></div>
+          <div className="item"><img alt="" src={m3}/></div>
+          <div className="item"><img alt="" src={m4}/></div>
+          <div className="item"><img alt="" src={m5}/></div>
+          <div className="item"><img alt="" src={m6}/></div>
+          <div className="item"><img alt="" src={m7}/></div>
+          <div className="item"><img alt="" src={m8}/></div>
+          <div className="item"><img alt="" src={m9}/></div>
+          <div className="item"><img alt="" src={m10}/></div>
+          <div className="item"><img alt="" src={m11}/></div>
+          <div className="item"><img alt="" src={m12}/></div>
+          <div className="item"><img alt="" src={m13}/></div>
+          <div className="item"><img alt="" src={m14}/></div>
+          <div className="item"><img alt="" src={m15}/></div>
+          <div className="item"><img alt="" src={m16}/></div>
+          <div className="item"><img alt="" src={m17}/></div>
         </div>
       </div>
     )
