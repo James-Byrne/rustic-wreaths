@@ -113,3 +113,25 @@ h6 { @extend .title; }
   border-top: 2px solid #CDB67E;
 }
 
+/* Find Us */
+.find-us {
+  border-top: 2px solid #CDB67E;
+  padding: 80px 100px;
+  background-color: #fafafa;
+
+  h6 {
+    color: #353535;
+  }
+
+  h6:after {
+    border: 2px solid #d1d7e0;
+    content: " ";
+    display: block;
+    margin: 20px auto 15px;
+    width: 35px;
+  }
+
+  .card {
+    padding: 50px 30px;
+  }
+}

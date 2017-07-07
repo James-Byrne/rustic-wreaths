@@ -6,6 +6,7 @@ import About from '../components/About.js';
 import MasonryGallery from '../components/MasonryGallery.js';
 import FollowUs from '../components/FollowUs.js';
 import ContactForm from '../components/ContactForm.js';
+import FindUs from '../components/FindUs.js';
 
 class Home extends Component {
   render() {
@@ -17,6 +18,7 @@ class Home extends Component {
         <MasonryGallery/>
         <FollowUs/>
         <ContactForm/>
+        <FindUs/>
       </div>
     )
   }
