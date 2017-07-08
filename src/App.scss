@@ -128,6 +128,7 @@ h6 { @extend .title; }
   border-top: 2px solid #CDB67E;
   padding: 80px 100px;
   background-color: #fafafa;
+  color: #353535;
 
   h5 { margin-bottom: 50px; }
   h6 { color: #353535; }
@@ -141,4 +142,11 @@ h6 { @extend .title; }
   }
 
   .card { padding: 50px 30px; }
+}
+
+.about-page {
+  border-top: 2px solid #CDB67E;
+  background-color: #2E3138;
+  padding-top: 50px;
+  padding-bottom: 80px;
 }

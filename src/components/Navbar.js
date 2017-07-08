@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import logo from '../images/logo.png';
 
 class Navbar extends Component {
   render() {
@@ -10,7 +11,7 @@ class Navbar extends Component {
             <span className="navbar-toggler-icon"></span>
           </button>
 
-          <a className="navbar-brand" href="#">Logo here</a>
+          <Link to="/" className="navbar-brand"><img src={logo} /></Link>
 
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
 
