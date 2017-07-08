@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+
+import Background from '../images/h1-bg.png';
 import showcase1 from '../images/showcase/showcase-1.jpg';
 import showcase2 from '../images/showcase/showcase-2.jpg';
 import showcase3 from '../images/showcase/showcase-3.jpg';
@@ -13,34 +15,35 @@ class Showcase extends Component {
         <div className="row">
           <div className="col text-center">
             <h4>DESIGNED FOR PERFECTION</h4>
+            <img alt="" className="title-arrow" src={Background}></img>
           </div>
         </div>
 
         <div className="row">
           <div className="col col-auto mx-auto">
-            <img alt="" src={showcase1}/>
+            <img alt="" className="display-image" src={showcase1}/>
           </div>
 
           <div className="col col-auto mx-auto">
-            <img alt="" src={showcase2}/>
+            <img alt="" className="display-image" src={showcase2}/>
           </div>
 
           <div className="col col-auto mx-auto">
-            <img alt="" src={showcase3}/>
+            <img alt="" className="display-image" src={showcase3}/>
           </div>
         </div>
 
         <div className="row">
           <div className="col col-auto mx-auto">
-            <img alt="" src={showcase4}/>
+            <img alt="" className="display-image" src={showcase4}/>
           </div>
 
           <div className="col col-auto mx-auto">
-            <img alt="" src={showcase5}/>
+            <img alt="" className="display-image" src={showcase5}/>
           </div>
 
           <div className="col col-auto mx-auto">
-            <img alt="" src={showcase6}/>
+            <img alt="" className="display-image" src={showcase6}/>
           </div>
         </div>
 

@@ -29,7 +29,7 @@ class ContactForm extends Component {
 
         <div className="row">
           <div className="col-5 mx-auto form-group">
-            <button className="btn btn-primary btn-lg btn-block">Submit</button>
+            <button className="btn btn-primary btn-lg btn-block">Send</button>
           </div>
         </div>
       </div>

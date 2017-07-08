@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 
+import Background from '../images/h1-bg.png';
 import m1 from '../images/masonry/masonry-1.jpg';
 import m2 from '../images/masonry/masonry-2.jpg';
 import m3 from '../images/masonry/masonry-3.jpg';
@@ -25,6 +26,7 @@ class MasonryGallery extends Component {
         <div className="row">
           <div className="col text-center">
             <h4>Our Wreaths</h4>
+            <img alt="" className="title-arrow" src={Background}></img>
           </div>
         </div>
         <div className="masonry">
