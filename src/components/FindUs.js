@@ -5,8 +5,8 @@ class FindUs extends Component {
     return (
       <div className="find-us container-fluid">
         <div className="row">
-          <div className="col">
-            <h4>Find Us</h4>
+          <div className="col text-center">
+            <h5>Find Us</h5>
           </div>
         </div>
 

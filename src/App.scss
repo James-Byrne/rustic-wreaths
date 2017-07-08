@@ -6,13 +6,25 @@ body {
 
 h1 { @extend .title; }
 h4 { @extend .title; }
+h5 { @extend .title; }
 h6 { @extend .title; }
 
+.btn-primary {
+  color: #2E3138;
+  background-color: #D0D6DF;
+  border-color: #D0D6DF;
+}
+
+.btn-primary:hover {
+  color: #2E3138;
+  background-color: #D0D6DF;
+  border-color: #D0D6DF;
+}
 
 /* Navbar */
 .navbar {
   width: 100%;
-  padding-top: 20px;
+  padding-top: 10px;
 
   background: transparent;
   color: rgba(255,255,255,.5);
@@ -118,6 +130,10 @@ h6 { @extend .title; }
   border-top: 2px solid #CDB67E;
   padding: 80px 100px;
   background-color: #fafafa;
+
+  h5 {
+    margin-bottom: 50px;
+  }
 
   h6 {
     color: #353535;
