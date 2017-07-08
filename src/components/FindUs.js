@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Background from '../images/h1-bg.png';
 
 class FindUs extends Component {
   render() {
@@ -7,6 +8,7 @@ class FindUs extends Component {
         <div className="row">
           <div className="col text-center">
             <h5>Find Us</h5>
+            <img alt="" className="title-arrow" src={Background}></img>
           </div>
         </div>
 
