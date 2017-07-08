@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Navbar extends Component {
   render() {
@@ -15,16 +16,24 @@ class Navbar extends Component {
 
             <ul className="navbar-nav ml-auto">
               <li className="nav-item">
-                <a className="nav-link" href="/wreaths">Wreaths</a>
+                <Link to="/wreaths" className="nav-link">
+                  Wreaths
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/about">About Us</a>
+                <Link to="/about" className="nav-link">
+                  About Us
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/trade-shows">Trade Shows</a>
+                <Link to="/trade-shows" className="nav-link">
+                  Trade Shows
+                </Link>
               </li>
               <li className="nav-item">
-                <a className="nav-link" href="/contact">Contact</a>
+                <Link to="/contact" className="nav-link">
+                  Contact
+                </Link>
               </li>
             </ul>
 
