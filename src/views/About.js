@@ -11,15 +11,9 @@ class About extends Component {
         <ImageBanner header="About Us" image={BannerImage}/>
 
         <div className="about-page container-fluid">
-          <div className="row">
-            <div className="col-6 mx-auto">
-            </div>
-          </div>
-
-          <br/>
 
           <div className="row">
-            <div className="col-6 mx-auto">
+            <div className="col-12 col-md-10 col-lg-8 mx-auto">
               <p>
                 We design and handcraft high quality Noble Fir wreaths for wholesale. Rustic Wreaths is a sister company to Forest Fresh Christmas Tree farms and this partnership provides us with a continual supply of foliage. We are environmentally responsible and fully support sustainability by replanting trees every year.
               </p>
@@ -31,7 +25,7 @@ class About extends Component {
                 Rustic Wreaths 2016 Christmas Collection wreaths are beautifully handcrafted using fresh Fragrant Noblis Fir foliage.
               </p>
 
-              <ul>
+              <ol>
                 <li>
                   Our gold bell and natural cones wreath is stylish and elegant and will enhance any front door.
                 </li>
@@ -50,7 +44,7 @@ class About extends Component {
                 <li>
                   We offer plain wreaths for creative people to add their own touch of flair.
                 </li>
-              </ul>
+              </ol>
 
               <p>
                 All of the above wreaths are made on 10” bases and the foliage expands to 14”. We can supply larger wreaths on special requests. Please note that we only supply wholesale however if you would like to purchase one of our wreaths please contact us and we will send you details of your nearest stockist.
