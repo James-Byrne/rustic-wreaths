@@ -7,6 +7,7 @@ import './App.css';
 import Navbar from './components/Navbar.js'
 import Home from './views/Home.js'
 import About from './views/About.js';
+import Contact from './views/Contact.js';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
           <Navbar/>
           <Route exact={true} path="/" component={Home}/>
           <Route exact={true} path="/about" component={About}/>
+          <Route exact={true} path="/contact" component={Contact}/>
         </div>
       </Router>
     );
