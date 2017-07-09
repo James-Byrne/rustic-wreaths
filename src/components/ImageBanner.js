@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 class ImageBanner extends Component {
   bannerStyle = {
     'background': `url(${this.props.image}) fixed`,
+    'background-size': 'cover',
     'paddingTop': '175px',
     'paddingBottom': '100px'
   };
