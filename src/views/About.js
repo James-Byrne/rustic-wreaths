@@ -13,7 +13,7 @@ class About extends Component {
         <div className="about-page container-fluid">
 
           <div className="row">
-            <div className="col-12 col-md-10 col-lg-8 mx-auto">
+            <div className="col-12 col-md-10 col-lg-6 mx-auto">
               <p>
                 We design and handcraft high quality Noble Fir wreaths for wholesale. Rustic Wreaths is a sister company to Forest Fresh Christmas Tree farms and this partnership provides us with a continual supply of foliage. We are environmentally responsible and fully support sustainability by replanting trees every year.
               </p>
