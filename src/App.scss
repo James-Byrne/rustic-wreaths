@@ -95,6 +95,10 @@ h6 { @extend .title; }
   column-count: 6;
   column-gap: 1em;
 }
+.masonry-2 {
+  column-count: 2;
+  column-gap: 1em;
+}
 .item {
   background-color: #eee;
   display: inline-block;
@@ -148,6 +152,13 @@ h6 { @extend .title; }
 }
 
 .about-page {
+  border-top: 2px solid #CDB67E;
+  background-color: #2E3138;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.trade-show-page {
   border-top: 2px solid #CDB67E;
   background-color: #2E3138;
   padding-top: 50px;
