@@ -21,7 +21,7 @@ class TradeShow extends Component {
 
         <div className="trade-show-page container-fluid">
           <div className="row">
-            <div className="col-12 col-md-10 col-lg-6 mx-auto">
+            <div className="col-12 col-md-10 col-lg-8 mx-auto">
 
               <div className="row">
 

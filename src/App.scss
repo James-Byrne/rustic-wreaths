@@ -99,6 +99,10 @@ h6 { @extend .title; }
   column-count: 2;
   column-gap: 1em;
 }
+.masonry-3 {
+  column-count: 3;
+  column-gap: 1em;
+}
 .item {
   background-color: #eee;
   display: inline-block;
@@ -159,6 +163,13 @@ h6 { @extend .title; }
 }
 
 .trade-show-page {
+  border-top: 2px solid #CDB67E;
+  background-color: #2E3138;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+.wreaths-page {
   border-top: 2px solid #CDB67E;
   background-color: #2E3138;
   padding-top: 50px;
