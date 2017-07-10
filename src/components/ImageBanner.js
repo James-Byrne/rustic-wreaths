@@ -4,6 +4,7 @@ class ImageBanner extends Component {
   bannerStyle = {
     'background': `url(${this.props.image}) fixed`,
     'background-size': 'cover',
+    'background-color': '#2E3138',
     'paddingTop': '175px',
     'paddingBottom': '100px'
   };
