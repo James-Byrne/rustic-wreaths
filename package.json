@@ -2,7 +2,7 @@
   "name": "rustic-wreaths",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://james-byrne.github.io/rustic-wreaths",
+  "homepage": "https://byrnecodes.com/rustic-wreaths",
   "dependencies": {
     "font-awesome": "^4.7.0",
     "node-sass-chokidar": "^0.0.3",
